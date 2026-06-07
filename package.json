@@ -1,0 +1,28 @@
+{
+  "name": "openclaw-memory-enhancement",
+  "version": "1.0.0",
+  "description": "基于MiroFish和Zep改进的OpenClaw记忆分析系统",
+  "main": "index.js",
+  "scripts": {
+    "test": "python3 test_proposal.py",
+    "lint": "eslint .",
+    "build": "tsc"
+  },
+  "keywords": [
+    "openclaw",
+    "memory",
+    "enhancement",
+    "mirofish",
+    "zep",
+    "ontology"
+  ],
+  "author": "OpenClaw Team",
+  "license": "MIT",
+  "dependencies": {
+    "openclaw-ontology": "^2.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "eslint": "^8.0.0"
+  }
+}
